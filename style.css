@@ -1,0 +1,67 @@
+body{
+    display:flex;
+    justify-content:center;
+    background-image:url(https://img.freepik.com/fotos-gratis/misterio-da-natureza-retratado-em-cena-de-floresta-tranquila-ia-generativa_188544-9755.jpg?w=740&t=st=1711163765~exp=1711164365~hmac=77d7e4e58f028a0e6ed0b18eb29a46579ac9b031db3fcfb73a2de8d0b11e05e0);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.tela{
+    border-radius:50px;
+    display:flex;
+    align-items:center;
+    justify-content:baseline;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 600px;
+    height: 450px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    background-color: aqua;
+}
+.texto1{
+    margin-top: 20px;
+
+}
+.texto2{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pedra{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://wesraiuga.github.io/games/assets/img/jokenpo/jokenpo-user-pedra.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;; 
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%; 
+}
+.tesoura{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://dustein.com.br/ppt-duda/midia/botao-tesoura.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;; 
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%; 
+}
+.papel{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://jokenpo-lime.vercel.app/papel.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;; 
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%; 
+}
